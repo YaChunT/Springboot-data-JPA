@@ -1,10 +1,10 @@
-# spring-data-jpa-course
+# spring-data-jpa
 
 ![2](https://user-images.githubusercontent.com/40702606/103156831-dfce9b00-47a4-11eb-9551-af8ffee11bd0.png)
 
-## Course Description
+## Description
 
-In this course you learn everything there is to learn about Spring Data JPA allowing to build scalable backend applications backed by any relational database. Spring Data JPA is a great choice allowing to speed your development and focus on the business logic. There will be a lot of coding In this course you will learn the following:
+Spring Data JPA allows to build scalable backend applications backed by any relational database. 
 
 - What is Spring Data JPA
 - Connect to a real database and not in memory DB
@@ -17,14 +17,30 @@ In this course you learn everything there is to learn about Spring Data JPA allo
 - Many to Many relationships
 - Transactions
 
-## Check out branches
+## Getting started 🏃‍♂️ 
 
-- `git checkout main` - the main branch is starting point
-- `git checkout section-1`
-- `git checkout section-2`
-- `git checkout section-3`
-- `git checkout section-4`
-- `git checkout section-5`
-- `git checkout section-6`
-- `git checkout section-7`
-- `git checkout section-1`
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/YaChunT/Springboot-data-JPA.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd Springboot-data-JPA
+    ```
+
+3. Build the project using Maven:
+
+    ```bash
+    ./mvnw clean package
+    ```
+
+4. Run the application:
+
+    ```bash
+    java -jar target/demo-0.0.1-SNAPSHOT.jar
+    ```
+
+5. The application will start running at `http://localhost:8080`.
